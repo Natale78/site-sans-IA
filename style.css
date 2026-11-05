@@ -1,0 +1,22 @@
+:root {
+
+body { 
+/*ajout du style de base du site*/
+background-color: #886bf9;
+color: #f7f4ff;
+
+font-family: 'Calibri', Arial, sans-serif;
+.navigation{background-color: #00f; box-sizing: border-box;}
+}
+@media screen and (max-width: 600px) 
+{
+     body {
+        font-size: 14px;
+        /* empiler les éléments flex */
+        .container {
+            flex-direction: column;
+        }
+
+    }
+}
+}
