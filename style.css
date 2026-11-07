@@ -1,17 +1,38 @@
 :root {
-
 body { 
 /*ajout du style de base du site*/
 background-color: #886bf9;
 color: #f7f4ff;
+}
+nav {
+    background-color: #0056b3;
+    padding: 10px 20px;
+    gap: 20px; /*espace entre les liens*/
+}
+nav a {
+    color: white;
+    text-decoration:none;
+    font-family: Calibri Arial,sans-serif;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+p {
+    background-color: #0056b3;
+    color: white;
+    font-family: Calibri Arial,sans-serif;
+    box-sizing: border-box;
 
-font-family: 'Calibri', Arial, sans-serif;
-.navigation{background-color: #00f; box-sizing: border-box;}
+}
+.copyright{
+color:black
 }
 @media screen and (max-width: 600px) 
 {
      body {
         font-size: 14px;
+        font-family: Calibri ,Arial,sans-serif;
         /* empiler les éléments flex */
         .container {
             flex-direction: column;

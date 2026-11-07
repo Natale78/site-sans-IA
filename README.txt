@@ -1,1 +1,1 @@
-Utilisation de Brave , Chrome pour ouvrir le site.
+Utilisation de Brave, Chrome et firefox pour ouvrir le site.
